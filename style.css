@@ -59,7 +59,7 @@ span{
     font-weight: 400;
     font-size: 14.5px;
     color: var(--text-dark-blue);
-    padding: 5px 0px;
+    padding: 0px 5px 0px 0px;
     line-height: 1.5;
 }
 
@@ -67,7 +67,7 @@ span{
     height: 16px;;
     margin: 0px;
     font-size: 14.5px;
-    padding: 10px 0px;
+    padding: 10px 0px 15px 0px;
     display: flex;
     justify-content: space-between;
     border-bottom: 0.75px solid var(--text-dark-blue);
