@@ -1,0 +1,130 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    background: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 480px;
+    width: 300px;
+    background: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Equilibrium{
+    margin-top: 25px;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.text{
+    margin: 20px 0px;
+    width: 250px;
+    font-family: 'Outfit', sans-serif;
+}
+
+span{
+    display: block;
+}
+
+.line1{
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.line2{
+    font-weight: 400;
+    font-size: 14.5px;
+    color: hsl(215, 51%, 70%);
+    padding: 5px 0px;
+    line-height: 1.5;
+}
+
+.line3{
+    height: 16px;;
+    margin: 0px;
+    font-size: 14.5px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.75px solid hsl(215, 51%, 70%);
+}
+
+.eth,
+.clock{
+    display: flex;
+    height: 16px;
+    align-items: center;
+}
+
+.eth{
+    color: hsl(178, 100%, 50%);
+}
+
+.clock{
+    color: hsl(215, 51%, 70%);
+}
+
+.icon{
+    height:15px;
+    width: auto;
+}
+
+.line4{
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+}
+
+.avatar,
+.creator,
+.creator span{
+    display: inline-flex;
+    font-size: 14.5px;
+}
+
+.avatar{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+    overflow: hidden;
+}
+
+.avatar img{
+    height: 25px;
+    width: auto;
+}
+
+.creator{
+    color: hsl(215, 51%, 70%);
+    padding-left: 10px;
+
+}
+
+.creator span{
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+
+
+
+
